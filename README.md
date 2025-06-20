@@ -55,7 +55,7 @@ public class EnviarMensagemService
     }
 }
 
- Azure Function com gatilho de Service Bus
+Azure Function com gatilho de Service Bus
 
 public class EmailFunction
 {
@@ -96,7 +96,7 @@ Deploy com Azure CLI
 
 az group create --name meu-grupo --location brazilsouth
 
-# Service Bus
+Service Bus
 az servicebus namespace create --name meu-servicebus-ns --resource-group meu-grupo --location brazilsouth
 az servicebus queue create --name minha-fila --namespace-name meu-servicebus-ns --resource-group meu-grupo
 
